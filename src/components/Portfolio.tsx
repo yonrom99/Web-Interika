@@ -11,6 +11,7 @@ const portfolioProjects = [
         concept: 'Ubicada en León, Guanajuato, esta obra de volúmenes pétreos elevados desafía la topografía mediante un diálogo entre masa y vacío. Cada arista es fruto de nuestra resolución técnica y capacitación constante, donde la maestría en la ejecución traduce la complejidad estructural en una experiencia de precisión absoluta.',
         src: '/proyectos/proyecto-1/portada.png',
         span: 'md:col-span-2 md:row-span-2',
+        images: ['/proyectos/proyecto-1/imagen-1.png', '/proyectos/proyecto-1/imagen-2.png', '/proyectos/proyecto-1/imagen-3.png', '/proyectos/proyecto-1/imagen-4.png', '/proyectos/proyecto-1/imagen-5.png', '/proyectos/proyecto-1/imagen-6.png', '/proyectos/proyecto-1/imagen-7.png']
     },
     {
         id: 2,
@@ -18,6 +19,7 @@ const portfolioProjects = [
         concept: 'Ubicado en León, Guanajuato, este espacio de interiorismo redefine la cocina como una pieza de mobiliario integral. A través de una selección de materiales nobles se logra una atmósfera de calidez minimalista. El diseño apuesta por la supresión del ruido visual y la optimización funcional, garantizando una ejecución impecable donde la tecnología oculta y la estética atemporal conviven en equilibrio absoluto.',
         src: '/proyectos/proyecto-2/portada.png',
         span: 'md:col-span-2',
+        images: ['/proyectos/proyecto-2/imagen-1.png', '/proyectos/proyecto-2/imagen-2.png', '/proyectos/proyecto-2/imagen-3.png', '/proyectos/proyecto-2/imagen-4.png', '/proyectos/proyecto-2/imagen-5.png', '/proyectos/proyecto-2/imagen-6.png', '/proyectos/proyecto-2/imagen-7.png', '/proyectos/proyecto-2/imagen-8.png']
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ const portfolioProjects = [
         concept: 'Ubicado en León, Guanajuato, este proyecto de convivencia exterior se define por una geometría audaz que rompe con la horizontalidad tradicional. Una cubierta angular de gran escala actúa como un gesto escultórico que protege y enmarca el área social, donde la calidez de la madera y la integración paisajística crean un refugio sofisticado.',
         src: '/proyectos/proyecto-3/portada.png',
         span: 'md:col-span-1',
+        images: ['/proyectos/proyecto-3/imagen-1.png', '/proyectos/proyecto-3/imagen-2.png', '/proyectos/proyecto-3/imagen-3.png', '/proyectos/proyecto-3/imagen-4.png', '/proyectos/proyecto-3/imagen-5.png']
     },
     {
         id: 4,
@@ -32,6 +35,7 @@ const portfolioProjects = [
         concept: 'Situado en León, Guanajuato, este desarrollo residencial redefine la escala a través de una arquitectura tectónica y audaz. Un imponente pórtico de concreto expuesto actúa como anclaje visual y estructural, soportando un volumen suspendido que se proyecta hacia el paisaje, transformando la masividad del material en una pieza de habitabilidad sofisticada y transparente.',
         src: '/proyectos/proyecto-4/portada.png',
         span: 'md:col-span-1',
+        images: ['/proyectos/proyecto-4/imagen-1.png', '/proyectos/proyecto-4/imagen-2.png', '/proyectos/proyecto-4/imagen-3.png', '/proyectos/proyecto-4/imagen-4.png', '/proyectos/proyecto-4/imagen-5.png', '/proyectos/proyecto-4/imagen-6.png', '/proyectos/proyecto-4/imagen-7.png']
     },
     {
         id: 5,
@@ -39,6 +43,7 @@ const portfolioProjects = [
         concept: 'Ubicado en León, Guanajuato, este ingreso residencial se concibe como una transición táctil y volumétrica. El diseño articula un diálogo entre la calidez orgánica del plafón de madera y la sobriedad técnica de las columnas monolíticas. La marquesina angular protege el acceso, maximizando la limpieza visual y la precisión en el detalle constructivo.',
         src: '/proyectos/proyecto-5/portada.png',
         span: 'md:col-span-2 md:row-span-2',
+        images: ['/proyectos/proyecto-5/imagen-1.png', '/proyectos/proyecto-5/imagen-2.png', '/proyectos/proyecto-5/imagen-3.png', '/proyectos/proyecto-5/imagen-4.png']
     },
     {
         id: 6,
@@ -46,6 +51,7 @@ const portfolioProjects = [
         concept: 'Ubicada en León, Guanajuato, esta residencia se define por una envolvente rítmica de listones de madera que unifica la volumetría superior. El diseño equilibra la privacidad con la entrada de luz tamizada, creando una fachada dinámica que protege e integra.',
         src: '/proyectos/proyecto-6/portada.png',
         span: 'md:col-span-2',
+        images: ['/proyectos/proyecto-6/imagen-1.png', '/proyectos/proyecto-6/imagen-2.png']
     },
     {
         id: 7,
@@ -53,6 +59,7 @@ const portfolioProjects = [
         concept: 'Ubicada en León, Guanajuato, esta zona de esparcimiento exterior se fundamenta en la honestidad de sus materiales y la pureza de sus planos. El proyecto articula un diálogo entre la calidez del ladrillo artesanal y la sobriedad de la estructura metálica, creando un refugio privado que integra agua y vegetación sensorial. Cada nivel y transición de materiales fue ejecutado con precisión, transformando el diseño de paisaje en una experiencia de serenidad absoluta y alta gama.',
         src: '/proyectos/proyecto-7/portada.png',
         span: 'md:col-span-1',
+        images: ['/proyectos/proyecto-7/imagen-1.png', '/proyectos/proyecto-7/imagen-2.png', '/proyectos/proyecto-7/imagen-3.png', '/proyectos/proyecto-7/imagen-4.png', '/proyectos/proyecto-7/imagen-5.png']
     },
     {
         id: 8,
@@ -60,6 +67,7 @@ const portfolioProjects = [
         concept: 'Ubicado en León, Guanajuato, este pabellón de esparcimiento se define por su pureza volumétrica y su integración total con el área social exterior. El diseño emplea una estructura metálica esbelta que soporta una planta alta de vistas panorámicas, equilibrando la masividad del muro de piedra con la ligereza del cristal.',
         src: '/proyectos/proyecto-8/portada.png',
         span: 'md:col-span-1',
+        images: ['/proyectos/proyecto-8/imagen-1.png', '/proyectos/proyecto-8/imagen-2.png', '/proyectos/proyecto-8/imagen-3.png']
     }
 ];
 
@@ -180,40 +188,65 @@ export default function Portfolio() {
 
                             {/* Contenido Dinámico del Modal */}
                             {selectedProject !== null && (
-                                <div className="flex-1 overflow-y-auto flex flex-col items-center justify-center p-8 md:p-16 text-center text-black">
-                                    <motion.span 
-                                        initial={{ opacity: 0, y: 10 }}
+                                <div className="flex-1 overflow-y-auto flex flex-col items-center justify-start px-8 md:px-16 pt-48 md:pt-[25vh] pb-16 text-center text-black">
+                                    <motion.span
+                                        initial={{ opacity: 0, y: 20 }}
                                         animate={{ opacity: 1, y: 0 }}
-                                        transition={{ delay: 0.1 }}
-                                        className="text-zinc-500 uppercase tracking-[0.4em] text-[10px] mb-6"
+                                        transition={{ delay: 0.2, duration: 0.8, ease: "easeOut" }}
+                                        className="text-zinc-400 uppercase tracking-[0.6em] text-xs mb-8 mt-24"
                                     >
                                         Proyecto {String(selectedProject).padStart(2, '0')}
                                     </motion.span>
-                                    
-                                    <motion.h3 
-                                        initial={{ opacity: 0, y: 10 }}
+
+                                    <motion.h3
+                                        initial={{ opacity: 0, y: 30 }}
                                         animate={{ opacity: 1, y: 0 }}
-                                        transition={{ delay: 0.2 }}
-                                        className="text-4xl md:text-5xl font-light tracking-widest mb-8 leading-[1.1]"
+                                        transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
+                                        className="text-5xl md:text-7xl font-light tracking-[0.15em] mb-12 leading-[1.1] text-zinc-900"
                                     >
                                         {portfolioProjects[selectedProject - 1].title}
                                     </motion.h3>
-                                    
-                                    <motion.div 
+
+                                    <motion.div
                                         initial={{ opacity: 0, scaleX: 0 }}
                                         animate={{ opacity: 1, scaleX: 1 }}
-                                        transition={{ delay: 0.3, duration: 0.8 }}
-                                        className="w-12 h-px bg-zinc-200 mb-8" 
+                                        transition={{ delay: 0.5, duration: 1, ease: "easeInOut" }}
+                                        className="w-16 h-px bg-zinc-300 mb-12 origin-center"
                                     />
-                                    
-                                    <motion.p 
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        transition={{ delay: 0.4 }}
-                                        className="max-w-2xl text-zinc-500 font-light leading-relaxed text-sm md:text-base"
+
+                                    <motion.p
+                                        initial={{ opacity: 0, y: 20 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.6, duration: 0.8, ease: "easeOut" }}
+                                        className="max-w-3xl text-zinc-500 font-light leading-[2] text-sm md:text-lg mb-40 px-4"
                                     >
                                         {portfolioProjects[selectedProject - 1].concept}
                                     </motion.p>
+
+                                    {/* Galería de imágenes del proyecto */}
+                                    {portfolioProjects[selectedProject - 1].images && (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: 40 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            transition={{ delay: 0.8, duration: 1, ease: "easeOut" }}
+                                            className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 pb-16"
+                                        >
+                                            {portfolioProjects[selectedProject - 1].images.map((imgSrc, idx) => (
+                                                <div
+                                                    key={idx}
+                                                    className={`relative w-full overflow-hidden bg-zinc-100 ${idx === 0 ? 'md:col-span-2 aspect-[16/10] md:aspect-[21/9]' : 'aspect-square md:aspect-[4/3]'}`}
+                                                >
+                                                    <Image
+                                                        src={imgSrc}
+                                                        alt={`${portfolioProjects[selectedProject - 1].title} - Imagen ${idx + 1}`}
+                                                        fill
+                                                        className="object-cover"
+                                                        quality={100}
+                                                    />
+                                                </div>
+                                            ))}
+                                        </motion.div>
+                                    )}
                                 </div>
                             )}
                         </motion.div>
